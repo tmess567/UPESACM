@@ -1,0 +1,25 @@
+[02-Sep-2015 21:14:37 UTC] PHP Warning:  mysqli_connect(): (HY000/2003): Can't connect to MySQL server on 'upesacm.org' (111) in /home/upesacmo/public_html/mentorship/enrol/index.php on line 313
+[02-Sep-2015 21:18:25 UTC] PHP Warning:  mysqli_connect(): (HY000/2003): Can't connect to MySQL server on 'upesacm.org' (111) in /home/upesacmo/public_html/mentorship/enrol/index.php on line 313
+[03-Sep-2015 08:16:16 UTC] PHP Notice:  Undefined variable: con in /home/upesacmo/public_html/mentorship/enrol/index.php on line 638
+[03-Sep-2015 08:16:17 UTC] PHP Fatal error:  Call to a member function close() on null in /home/upesacmo/public_html/mentorship/enrol/index.php on line 638
+[03-Sep-2015 08:16:40 UTC] PHP Warning:  mysqli_connect(): (HY000/2005): Unknown MySQL server host 'https://upesacm.org' (2) in /home/upesacmo/public_html/mentorship/enrol/index.php on line 316
+[03-Sep-2015 08:16:40 UTC] PHP Notice:  Undefined variable: mysqli in /home/upesacmo/public_html/mentorship/enrol/index.php on line 316
+[03-Sep-2015 08:16:40 UTC] PHP Notice:  Trying to get property of non-object in /home/upesacmo/public_html/mentorship/enrol/index.php on line 316
+[03-Sep-2015 08:18:59 UTC] PHP Notice:  Undefined variable: con in /home/upesacmo/public_html/mentorship/enrol/index.php on line 638
+[03-Sep-2015 08:18:59 UTC] PHP Fatal error:  Call to a member function close() on null in /home/upesacmo/public_html/mentorship/enrol/index.php on line 638
+[03-Sep-2015 08:19:11 UTC] PHP Warning:  mysqli_connect(): (HY000/2005): Unknown MySQL server host 'http://upesacm.org' (2) in /home/upesacmo/public_html/mentorship/enrol/index.php on line 316
+[03-Sep-2015 08:19:11 UTC] PHP Notice:  Undefined variable: mysqli in /home/upesacmo/public_html/mentorship/enrol/index.php on line 316
+[03-Sep-2015 08:19:11 UTC] PHP Notice:  Trying to get property of non-object in /home/upesacmo/public_html/mentorship/enrol/index.php on line 316
+[03-Sep-2015 08:22:34 UTC] PHP Notice:  Undefined variable: con in /home/upesacmo/public_html/mentorship/enrol/index.php on line 638
+[03-Sep-2015 08:22:35 UTC] PHP Fatal error:  Call to a member function close() on null in /home/upesacmo/public_html/mentorship/enrol/index.php on line 638
+[03-Sep-2015 08:22:58 UTC] PHP Warning:  mysqli_connect(): (HY000/2005): Unknown MySQL server host 'http://upesacm.org' (2) in /home/upesacmo/public_html/mentorship/enrol/index.php on line 316
+[03-Sep-2015 08:32:51 UTC] PHP Warning:  mysqli_connect(): (HY000/2005): Unknown MySQL server host 'https://upesacm.org' (2) in /home/upesacmo/public_html/mentorship/enrol/form.php on line 15
+[03-Sep-2015 13:55:20 UTC] PHP Warning:  mysqli_connect(): (HY000/2005): Unknown MySQL server host 'https://upesacm.org' (2) in /home/upesacmo/public_html/mentorship/enrol/form.php on line 14
+[03-Sep-2015 13:58:56 UTC] PHP Notice:  Undefined variable: con in /home/upesacmo/public_html/mentorship/enrol/form.php on line 336
+[03-Sep-2015 13:58:56 UTC] PHP Fatal error:  Call to a member function close() on null in /home/upesacmo/public_html/mentorship/enrol/form.php on line 336
+[03-Sep-2015 14:00:54 UTC] PHP Warning:  mysqli_connect(): (HY000/2005): Unknown MySQL server host 'https://upesacm.org' (2) in /home/upesacmo/public_html/mentorship/enrol/form.php on line 14
+[03-Sep-2015 14:14:49 UTC] PHP Warning:  mysqli_connect(): (HY000/2003): Can't connect to MySQL server on '103.8.124.98' (111) in /home/upesacmo/public_html/mentorship/enrol/form.php on line 14
+[03-Sep-2015 14:15:34 UTC] PHP Parse error:  syntax error, unexpected 'upesacmo_addme' (T_STRING) in /home/upesacmo/public_html/mentorship/enrol/form.php on line 14
+[03-Sep-2015 14:38:37 UTC] PHP Warning:  mysqli_connect(): (HY000/2005): Unknown MySQL server host 'http://upesacm.org' (2) in /home/upesacmo/public_html/mentorship/enrol/form.php on line 14
+[03-Sep-2015 14:39:14 UTC] PHP Warning:  mysqli_connect(): (HY000/2003): Can't connect to MySQL server on '103.8.124.98' (111) in /home/upesacmo/public_html/mentorship/enrol/form.php on line 14
+[03-Sep-2015 14:57:32 UTC] PHP Warning:  mysqli_connect(): (HY000/2003): Can't connect to MySQL server on '103.8.124.98' (111) in /home/upesacmo/public_html/mentorship/enrol/form.php on line 14
