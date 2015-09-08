@@ -1,11 +1,15 @@
 package org.acm.upes;
 
 import android.content.Context;
+import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.webkit.WebChromeClient;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
@@ -16,6 +20,7 @@ public class WebsiteClone extends AppCompatActivity {
     private WebView wv;
     private WebSettings webset;
     private Context context = WebsiteClone.this;
+    private String tag = "WebsiteClone.java";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,10 +29,19 @@ public class WebsiteClone extends AppCompatActivity {
         webset = wv.getSettings();
         //Enabling Javascript
         webset.setJavaScriptEnabled(true);
-        //Load web links within the current WebView
-        //TODO: Set the new WVClient to load JS as well
-        //TODO: Open external links in Browser not in WebView
-        wv.setWebViewClient(new WebViewClient());
+        wv.setWebViewClient(new WebViewClient() {
+            @Override
+            public boolean shouldOverrideUrlLoading(WebView view, String url) {
+                if (url.substring(0, 7).equals("file://")) {
+                    return false;
+                } else {
+                    Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+                    startActivity(intent);
+                }
+                return true;
+            }
+        });
+        wv.setWebChromeClient(new WebChromeClient());
         //TODO:If network conn available load from net.
         wv.loadUrl(getString(R.string.websiteURL));
         //Adding JS Interface
