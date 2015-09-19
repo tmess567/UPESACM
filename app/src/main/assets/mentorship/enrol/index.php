@@ -23,20 +23,6 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="bootstrap-select.css">
-        
-        <link rel="apple-touch-icon" sizes="57x57" href="../apple-touch-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="../apple-touch-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="../apple-touch-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="../apple-touch-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="../apple-touch-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="../apple-touch-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="../apple-touch-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="../apple-touch-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon-180x180.png">
-<link rel="icon" type="image/png" href="../favicon-32x32.png" sizes="32x32">
-<link rel="icon" type="image/png" href="../android-chrome-192x192.png" sizes="192x192">
-<link rel="icon" type="image/png" href="../favicon-96x96.png" sizes="96x96">
-<link rel="icon" type="image/png" href="../favicon-16x16.png" sizes="16x16">
 <link rel="manifest" href="../../manifest.json">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="bootstrap-select.js"></script>
@@ -284,7 +270,7 @@ a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
             var teamCount = 24;
         </script>
 		
-<script src="../../../ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="../../ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script src="../../dist/js/plugins.min.js"></script>
                <script src="../../dist/js/main.min5b9c.js?v=20150807"></script>
 
@@ -293,7 +279,7 @@ a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
             <script src="/dist/js/ie9.min.js"></script>
         <![endif]-->
 
-        <script type="text/javascript" src="../../../cdn.raygun.io/raygun4js/raygun.min.js"></script>
+        <script type="text/javascript" src="../../cdn.raygun.io/raygun4js/raygun.min.js"></script>
         <script>
             var raygunID = window.location.host.indexOf("o3world.com") > -1 ? '/7dVAoXIxaV/J3ejlZ+nTQ==' : 'xxxxxxxxxxx';
             Raygun.init(raygunID).attach();

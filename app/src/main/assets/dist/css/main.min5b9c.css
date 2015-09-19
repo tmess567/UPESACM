@@ -1063,8 +1063,8 @@ body.vjs-full-window{padding:0;margin:0;height:100%;overflow-y:auto}
 .nav-boxes .bg:before{height:100%;top:0;background:rgba(0,0,0,.4)}
 .nav-boxes .bg-about{background-image:url(../img/nav-hover-about.jpg)}
 .nav-boxes .bg-work{background-image:url(../img/nav-hover-work.jpg)}
-.nav-boxes .bg-news{background-image:url(../img/nav-hover-news.jpg)}
-.nav-boxes .bg-careers{background-image:url(../img/nav-hover-careers.jpg)}
+.nav-boxes .bg-news{background-image:url(../img/nav-hover-about.jpg)}
+.nav-boxes .bg-careers{background-image:url(../img/nav-hover-work.jpg)}
 .nav__footer{text-align:center;font-weight:700}
 .nav__footer .nav__footer__info>a,.nav__footer .nav__footer__info>div,.nav__footer .nav__footer__info>ul{height:80px}
 .nav__footer .nav__footer__bottom{float:left;width:100%;text-align:left;padding:24px 30px}

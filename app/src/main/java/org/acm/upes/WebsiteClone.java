@@ -3,12 +3,10 @@ package org.acm.upes;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
+import android.support.v7.app.AppCompatActivity;
 import android.view.KeyEvent;
-import android.view.Menu;
-import android.view.MenuItem;
+import android.view.Window;
 import android.webkit.WebChromeClient;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
@@ -23,12 +21,11 @@ public class WebsiteClone extends AppCompatActivity {
     private String tag = "WebsiteClone.java";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        boolean b = requestWindowFeature(Window.FEATURE_NO_TITLE);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_website_clone);
+        Toast.makeText(context, Boolean.toString(b), Toast.LENGTH_LONG).show();
         wv = (WebView) findViewById(R.id.webview);
-        webset = wv.getSettings();
-        //Enabling Javascript
-        webset.setJavaScriptEnabled(true);
         wv.setWebViewClient(new WebViewClient() {
             @Override
             public boolean shouldOverrideUrlLoading(WebView view, String url) {
@@ -42,6 +39,7 @@ public class WebsiteClone extends AppCompatActivity {
             }
         });
         wv.setWebChromeClient(new WebChromeClient());
+        wv.getSettings().setJavaScriptEnabled(true);
         //TODO:If network conn available load from net.
         wv.loadUrl(getString(R.string.websiteURL));
         //Adding JS Interface
@@ -61,25 +59,4 @@ public class WebsiteClone extends AppCompatActivity {
         return super.onKeyDown(keyCode, event);
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_website_clone, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
-
-        return super.onOptionsItemSelected(item);
-    }
 }
