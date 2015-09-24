@@ -19,6 +19,7 @@ public class WebAppInterface {
      */
     @JavascriptInterface
     public void showToast(String toast) {
-        Toast.makeText(mContext, toast, Toast.LENGTH_SHORT).show();
+        String test = "This function has been called by the Website to display notifications";
+        Toast.makeText(mContext, test, Toast.LENGTH_SHORT).show();
     }
 }
